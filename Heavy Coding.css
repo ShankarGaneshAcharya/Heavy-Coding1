@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar {
+    width: 100%;
+    margin: 0px auto;
+    height: 40px;
+    /* background: #333; */
+    background: #1eae98;  
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    font-family: Arial;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    float: left;
+    width: 150px;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+    border-left: 1px solid #fff;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.navbar ul li a:hover {
+    /* background-color: #04AA6D; */
+    background-color: #067766bf;
+    /* color: black; */
+    /* to change text color on hover type color: 'color name' as above */
+}
+
+.navbar ul ul {
+    position: absolute;
+    /* background-color: #04AA6D; */
+    background-color: #1eae98;
+    display: none;
+}
+
+.navbar ul ul ul {
+    left: 100%;
+    top: 0px;
+}
+
+.navbar ul li:hover > ul {
+    display: block;
+}
+
+p{
+    margin: 5px;
+}
+
+
+.newt{
+    padding: 16px;
+    margin-top: 30px;
+    /* height: 1500px; Used in this example to enable scrolling  */
+    text-align: justify;
+}
